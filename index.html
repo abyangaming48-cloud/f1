@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Verstappen #1 - My F1 Racing Idol Portfolio</title>
+    <!-- Google Fonts: Titillium Web & Orbitron for F1 Motorsport Visuals -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800;900&family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+
+    <header class="navbar" id="navbar">
+        <div class="container navbar-container">
+            <a href="#home" class="nav-logo">
+                <i class="fa-solid fa-flag-checkered"></i> <span>VERSTAPPEN</span>#1
+            </a>
+            <button class="hamburger" id="hamburger-btn" aria-label="Toggle Navigation Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">HOME</a></li>
+                <li><a href="#about" class="nav-link">ABOUT</a></li>
+                <li><a href="#career" class="nav-link">CAREER</a></li>
+                <li><a href="#stats" class="nav-link">STATISTICS</a></li>
+                <li><a href="#achievements" class="nav-link">ACHIEVEMENTS</a></li>
+                <li><a href="#gallery" class="nav-link">GALLERY</a></li>
+                <li><a href="#game" class="nav-link">F1 GAME</a></li>
+                <li><a href="#quiz" class="nav-link">QUIZ</a></li>
+                <li><a href="#contact" class="nav-link">CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <i class="fa-solid fa-bolt"></i> FORMULA 1 WORLD CHAMPION
+                    </div>
+                    <h1 class="hero-title">
+                        MAX <span>VERSTAPPEN</span> <span class="hero-number">#1</span>
+                    </h1>
+                    <div class="hero-quote">
+                        "Simply Lovely! You have to always push to the absolute limit."
+                    </div>
+                    <p class="hero-desc">
+                        Selamat datang di portofolio idola F1 saya. Jelajahi perjalanan karier, rekor fantastis, statistik luar biasa, dan dominasi kecepatan dari 3x World Champion Formula 1!
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#career" class="btn btn-primary">
+                            <i class="fa-solid fa-compass"></i> EXPLORE CAREER
+                        </a>
+                        <a href="#game" class="btn btn-secondary">
+                            <i class="fa-solid fa-gamepad"></i> REACTION LIGHT GAME
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-glow-bg"></div>
+                    <div class="hero-card-3d card-perspective">
+                        <!-- Custom F1 Car Vector Graphics -->
+                        <svg viewBox="0 0 500 600" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="f1Grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="#181824"/>
+                                    <stop offset="100%" stop-color="#09090c"/>
+                                </linearGradient>
+                                <linearGradient id="redG" x1="0%" y1="0%" x2="100%" y2="0%">
+                                    <stop offset="0%" stop-color="#e10600"/>
+                                    <stop offset="100%" stop-color="#ff4d4d"/>
+                                </linearGradient>
+                            </defs>
+                            <rect width="100%" height="100%" fill="url(#f1Grad)"/>
+                            <circle cx="250" cy="280" r="170" stroke="rgba(225,6,0,0.3)" stroke-width="2" fill="none"/>
+                            <!-- F1 Car Silhouette -->
+                            <path d="M100 350 Q 250 300 400 350 L 430 380 L 70 380 Z" fill="url(#redG)"/>
+                            <rect x="210" y="240" width="80" height="90" rx="15" fill="#ffffff" opacity="0.9"/>
+                            <text x="250" y="310" font-family="'Orbitron', sans-serif" font-size="65" font-weight="900" fill="#e10600" text-anchor="middle">1</text>
+                            <text x="250" y="470" font-family="'Orbitron', sans-serif" font-size="28" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="4">RED BULL RACING</text>
+                            <text x="250" y="510" font-family="'Orbitron', sans-serif" font-size="16" font-weight="700" fill="#ffd700" text-anchor="middle" letter-spacing="2">DUTCH FLYING HUMAN</text>
+                        </svg>
+                    </div>
+                    <div class="floating-stat-badge badge-top">
+                        <i class="fa-solid fa-trophy badge-icon"></i>
+                        <div class="badge-info">
+                            <h4>3x World Champion</h4>
+                            <p>2021, 2022, 2023 F1 Titles</p>
+                        </div>
+                    </div>
+                    <div class="floating-stat-badge badge-bottom">
+                        <i class="fa-solid fa-gauge-high badge-icon" style="color:var(--f1-red)"></i>
+                        <div class="badge-info">
+                            <h4>60+ GP Wins</h4>
+                            <p>All-time Dominance</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section-padding">
+            <div class="container">
+                <div class="section-title">
+                    <h2>ABOUT MY F1 IDOL</h2>
+                    <p class="section-subtitle">Biography & Personal Driver Profile</p>
+                </div>
+                <div class="about-grid">
+                    <div class="profile-card card-perspective">
+                        <h3 style="font-family:var(--font-racing); font-size:1.4rem; color:var(--f1-red); margin-bottom:15px;"><i class="fa-solid fa-address-card"></i> DRIVER PROFILE</h3>
+                        <div class="profile-list">
+                            <div class="profile-item">
+                                <div class="profile-label">Full Name</div>
+                                <div class="profile-value">Max Emilian Verstappen</div>
+                            </div>
+                            <div class="profile-item">
+                                <div class="profile-label">Racing Number</div>
+                                <div class="profile-value">#1 (33)</div>
+                            </div>
+                            <div class="profile-item">
+                                <div class="profile-label">Born</div>
+                                <div class="profile-value">30 September 1997</div>
+                            </div>
+                            <div class="profile-item">
+                                <div class="profile-label">Nationality</div>
+                                <div class="profile-value">Netherlands 🇳🇱</div>
+                            </div>
+                            <div class="profile-item">
+                                <div class="profile-label">Current Team</div>
+                                <div class="profile-value">Red Bull Racing</div>
+                            </div>
+                            <div class="profile-item">
+                                <div class="profile-label">F1 Debut</div>
+                                <div class="profile-value">2015 (Australian GP)</div>
+                            </div>
+                            <div class="profile-item">
+                                <div class="profile-label">First Win</div>
+                                <div class="profile-value">2016 Spanish GP</div>
+                            </div>
+                            <div class="profile-item">
+                                <div class="profile-label">World Titles</div>
+                                <div class="profile-value">3 Champions 🏆</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="inspiration-card">
+                        <div class="inspiration-box">
+                            <p>
+                                "Max Verstappen menjadi pembalap idola saya karena agresivitasnya yang luar biasa di lintasan, presisi menyalip lawan, serta fokus mental tanpa kompromi. Ia membuktikan bahwa kombinasi bakat alami dan kerja keras sejak usia muda di karting mampu menciptakan pembalap paling dominan di era Formula 1 modern."
+                            </p>
+                        </div>
+                        <div class="traits-grid">
+                            <div class="trait-box">
+                                <i class="fa-solid fa-fire-flame-curved"></i>
+                                <h4>Aggressive Overtaking</h4>
+                            </div>
+                            <div class="trait-box">
+                                <i class="fa-solid fa-crosshairs"></i>
+                                <h4>Supreme Precision</h4>
+                            </div>
+                            <div class="trait-box">
+                                <i class="fa-solid fa-cloud-showers-heavy"></i>
+                                <h4>Wet Weather Master</h4>
+                            </div>
+                            <div class="trait-box">
+                                <i class="fa-solid fa-brain"></i>
+                                <h4>Ice-Cold Focus</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="career" class="section-padding" style="background: rgba(0,0,0,0.25);">
+            <div class="container">
+                <div class="section-title">
+                    <h2>CAREER JOURNEY</h2>
+                    <p class="section-subtitle">Milestones from Karting to F1 Championship Supremacy</p>
+                </div>
+                <div class="timeline">
+                    <!-- Toro Rosso -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">2015 - 2016</span>
+                            <h3 class="timeline-team"><i class="fa-solid fa-shield-cat" style="color:var(--f1-red)"></i> Scuderia Toro Rosso</h3>
+                            <div class="timeline-stats">
+                                <span><i class="fa-solid fa-flag"></i> Debut at 17 Yrs Old</span>
+                            </div>
+                            <p class="timeline-desc">Menjadi pembalap termuda dalam sejarah Formula 1 yang mencetak poin pada usianya yang baru 17 tahun 180 hari.</p>
+                        </div>
+                    </div>
+                    <!-- Red Bull First Win -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">2016</span>
+                            <h3 class="timeline-team"><i class="fa-solid fa-trophy" style="color:var(--f1-gold)"></i> First F1 Victory</h3>
+                            <div class="timeline-stats">
+                                <span><i class="fa-solid fa-award"></i> Spanish GP Winner</span>
+                            </div>
+                            <p class="timeline-desc">Dipromosikan ke Red Bull Racing dan langsung menjuarai Grand Prix Spanyol 2016, menjadi pemenang GP termuda sepanjang masa.</p>
+                        </div>
+                    </div>
+                    <!-- First Title -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">2021</span>
+                            <h3 class="timeline-team"><i class="fa-solid fa-crown" style="color:var(--f1-gold)"></i> First World Championship</h3>
+                            <div class="timeline-stats">
+                                <span><i class="fa-solid fa-flag-checkered"></i> 10 Wins | Abu Dhabi Winner</span>
+                            </div>
+                            <p class="timeline-desc">Memenangkan gelar Juara Dunia F1 pertamanya setelah pertarungan sengit hingga lap terakhir di Abu Dhabi 2021.</p>
+                        </div>
+                    </div>
+                    <!-- Dominance -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">2022 - 2023</span>
+                            <h3 class="timeline-team"><i class="fa-solid fa-bolt" style="color:var(--f1-cyan)"></i> Record-Breaking Dominance</h3>
+                            <div class="timeline-stats">
+                                <span><i class="fa-solid fa-fire"></i> 19 Wins in 1 Season</span>
+                            </div>
+                            <p class="timeline-desc">Memecahkan rekor 10 kemenangan berturut-turut dan 19 kemenangan dalam satu musim, mencetak sejarah F1 yang belum pernah terjadi sebelumnya.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="stats" class="section-padding">
+            <div class="container">
+                <div class="section-title">
+                    <h2>CAREER STATISTICS</h2>
+                    <p class="section-subtitle">Phenomenal numbers recorded in Formula 1</p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <i class="fa-solid fa-trophy stat-icon" style="color:var(--f1-gold)"></i>
+                        <div class="stat-number" data-target="3">0</div>
+                        <div class="stat-label">World Titles</div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fa-solid fa-flag-checkered stat-icon"></i>
+                        <div class="stat-number" data-target="60">0</div>
+                        <div class="stat-label">Race Wins</div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fa-solid fa-medal stat-icon"></i>
+                        <div class="stat-number" data-target="105">0</div>
+                        <div class="stat-label">Podiums</div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fa-solid fa-stopwatch stat-icon"></i>
+                        <div class="stat-number" data-target="40">0</div>
+                        <div class="stat-label">Pole Positions</div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fa-solid fa-gauge-high stat-icon"></i>
+                        <div class="stat-number" data-target="32">0</div>
+                        <div class="stat-label">Fastest Laps</div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fa-solid fa-star stat-icon" style="color:var(--f1-gold)"></i>
+                        <div class="stat-number" data-target="2800">0</div>
+                        <div class="stat-label">Career Points</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements" class="section-padding" style="background: rgba(0,0,0,0.25);">
+            <div class="container">
+                <div class="section-title">
+                    <h2>ACCOLADES & ACHIEVEMENTS</h2>
+                    <p class="section-subtitle">Trophies and historic Formula 1 records</p>
+                </div>
+                <div class="achievements-grid">
+                    <div class="card-perspective">
+                        <div class="achievement-card">
+                            <i class="fa-solid fa-trophy trophy-icon"></i>
+                            <h3 class="achievement-title">F1 World Champion</h3>
+                            <span class="achievement-count">3x Champion (2021, 2022, 2023)</span>
+                        </div>
+                    </div>
+                    <div class="card-perspective">
+                        <div class="achievement-card">
+                            <i class="fa-solid fa-fire trophy-icon"></i>
+                            <h3 class="achievement-title">Most Wins in a Season</h3>
+                            <span class="achievement-count">19 Wins (2023 Season)</span>
+                        </div>
+                    </div>
+                    <div class="card-perspective">
+                        <div class="achievement-card">
+                            <i class="fa-solid fa-bolt trophy-icon"></i>
+                            <h3 class="achievement-title">Most Consecutive Wins</h3>
+                            <span class="achievement-count">10 Races In A Row</span>
+                        </div>
+                    </div>
+                    <div class="card-perspective">
+                        <div class="achievement-card">
+                            <i class="fa-solid fa-award trophy-icon"></i>
+                            <h3 class="achievement-title">Youngest Winner</h3>
+                            <span class="achievement-count">18 Years 228 Days</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section-padding">
+            <div class="container">
+                <div class="section-title">
+                    <h2>FAVORITE MOMENTS</h2>
+                    <p class="section-subtitle">Unforgettable Grand Prix Races & Masterclasses</p>
+                </div>
+                <div class="moments-grid">
+                    <!-- Abu Dhabi 2021 -->
+                    <div class="moment-card" 
+                         data-title="Abu Dhabi GP 2021 - World Championship Victory" 
+                         data-desc="Kemenangan dramatis Max Verstappen di Sirkuit Yas Marina, Abu Dhabi di bawah sorotan lampu stadion pada lap terakhir untuk mengunci Gelar Juara Dunia F1 Perdananya." 
+                         data-img="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><defs><linearGradient id='sky' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='%230a0a1a'/><stop offset='50%' stop-color='%231a0d2e'/><stop offset='100%' stop-color='%23e10600'/></linearGradient><linearGradient id='gold' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='%23ffe066'/><stop offset='100%' stop-color='%23d4af37'/></linearGradient></defs><rect width='800' height='500' fill='url(%23sky)'/><circle cx='150' cy='120' r='80' fill='rgba(255,215,0,0.15)' filter='blur(20px)'/><circle cx='650' cy='100' r='100' fill='rgba(0,240,255,0.15)' filter='blur(25px)'/><path d='M200 280 Q 400 180 600 280 L 800 320 L 800 500 L 0 500 L 0 320 Z' fill='%23080810' opacity='0.85'/><path d='M220 270 Q 400 170 580 270' stroke='%2300f0ff' stroke-width='4' fill='none' opacity='0.8'/><rect x='0' y='460' width='800' height='13' fill='%23ae1c28'/><rect x='0' y='473' width='800' height='13' fill='%23ffffff'/><rect x='0' y='486' width='800' height='14' fill='%2321468b'/><path d='M400 210 L420 260 L460 260 L430 290 L445 340 L400 310 L355 340 L370 290 L340 260 L380 260 Z' fill='url(%23gold)'/><text x='400' y='160' font-family='Orbitron, sans-serif' font-size='42' font-weight='900' fill='%23ffffff' text-anchor='middle' letter-spacing='3'>ABU DHABI 2021</text><text x='400' y='200' font-family='Orbitron, sans-serif' font-size='20' font-weight='800' fill='%23ffd700' text-anchor='middle' letter-spacing='2'>FIRST WORLD TITLE VICTORY</text><text x='400' y='410' font-family='Orbitron, sans-serif' font-size='70' font-weight='900' fill='url(%23gold)' text-anchor='middle'>%231</text><text x='400' y='440' font-family='Orbitron, sans-serif' font-size='15' font-weight='700' fill='%23ffffff' text-anchor='middle' letter-spacing='4'>MAX VERSTAPPEN WORLD CHAMPION</text></svg>">
+                        <img class="moment-bg" src="pages/images (1).jpg" alt="Abu Dhabi GP 2021 Title">
+                        <div class="moment-overlay">
+                            <h3 class="moment-title">Abu Dhabi GP 2021</h3>
+                            <p class="moment-desc">Kemenangan lap terakhir mengunci gelar World Champion pertama.</p>
+                        </div>
+                    </div>
+
+                    <!-- Brazil GP 2016 -->
+                    <div class="moment-card" 
+                         data-title="Brazil GP Interlagos - Rain Masterclass" 
+                         data-desc="Pertunjukan legendaris di lintasan basah sirkuit Interlagos, Brazil, saat Max memotong barisan dan menyalip lawan dalam hujan lebat." 
+                         data-img="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><defs><linearGradient id='bgRain' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='%2303101e'/><stop offset='100%' stop-color='%230b233a'/></linearGradient><linearGradient id='redCar' x1='0' y1='0' x2='1' y2='0'><stop offset='0%' stop-color='%23e10600'/><stop offset='100%' stop-color='%23ff3333'/></linearGradient></defs><rect width='800' height='500' fill='url(%23bgRain)'/><g stroke='rgba(0, 240, 255, 0.25)' stroke-width='2' stroke-dasharray='10,20'><line x1='100' y1='0' x2='50' y2='500'/><line x1='250' y1='0' x2='200' y2='500'/><line x1='400' y1='0' x2='350' y2='500'/><line x1='550' y1='0' x2='500' y2='500'/><line x1='700' y1='0' x2='650' y2='500'/></g><path d='M0 420 Q 400 360 800 420 L800 500 L0 500 Z' fill='%230a141d'/><path d='M0 420 Q 400 360 800 420' stroke='%23ffdf00' stroke-width='12' stroke-dasharray='40,40' fill='none'/><path d='M0 420 Q 400 360 800 420' stroke='%23009c3b' stroke-width='12' stroke-dasharray='40,40' stroke-dashoffset='40' fill='none'/><ellipse cx='400' cy='380' rx='280' ry='35' fill='rgba(255,255,255,0.15)' filter='blur(15px)'/><text x='400' y='140' font-family='Orbitron, sans-serif' font-size='42' font-weight='900' fill='%2300f0ff' text-anchor='middle' letter-spacing='3'>BRAZIL GP 2016</text><text x='400' y='180' font-family='Orbitron, sans-serif' font-size='20' font-weight='800' fill='%23ffffff' text-anchor='middle' letter-spacing='2'>LEGENDARY WET WEATHER MASTERCLASS</text><path d='M250 330 L550 330 L520 280 L280 280 Z' fill='url(%23redCar)'/><text x='400' y='320' font-family='Orbitron, sans-serif' font-size='38' font-weight='900' fill='%23ffd700' text-anchor='middle'>33</text><text x='400' y='460' font-family='Orbitron, sans-serif' font-size='16' font-weight='700' fill='%2300f0ff' text-anchor='middle' letter-spacing='3'>INTERLAGOS RAIN RECOVERIES & PODIUM</text></svg>">
+                        <img class="moment-bg" src="pages/images.jpg" alt="Brazil GP Rain Masterclass">
+                        <div class="moment-overlay">
+                            <h3 class="moment-title">Brazil GP 2016</h3>
+                            <p class="moment-desc">Masterclass berkendara di lintasan basah Interlagos.</p>
+                        </div>
+                    </div>
+
+                    <!-- Dutch GP Zandvoort -->
+                    <div class="moment-card" 
+                         data-title="Dutch GP Zandvoort - Home Victory" 
+                         data-desc="Pesta kemenangan spektakuler di Sirkuit Zandvoort, Belanda, dikelilingi ribuan pendukung lautan asap oranye Orange Army." 
+                         data-img="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><defs><linearGradient id='bgDutch' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='%232b0f00'/><stop offset='50%' stop-color='%23ff5500'/><stop offset='100%' stop-color='%23111116'/></linearGradient></defs><rect width='800' height='500' fill='url(%23bgDutch)'/><circle cx='200' cy='200' r='180' fill='rgba(255,119,0,0.4)' filter='blur(35px)'/><circle cx='600' cy='220' r='200' fill='rgba(255,153,0,0.35)' filter='blur(40px)'/><path d='M-50 100 Q 400 200 850 100 L850 160 Q 400 260 -50 160 Z' fill='%23ae1c28'/><path d='M-50 160 Q 400 260 850 160 L850 220 Q 400 320 -50 220 Z' fill='%23ffffff'/><path d='M-50 220 Q 400 320 850 220 L850 280 Q 400 380 -50 280 Z' fill='%2321468b'/><text x='400' y='110' font-family='Orbitron, sans-serif' font-size='42' font-weight='900' fill='%23ffffff' text-anchor='middle' letter-spacing='3'>DUTCH GP ZANDVOORT</text><text x='400' y='150' font-family='Orbitron, sans-serif' font-size='20' font-weight='800' fill='%23ffd700' text-anchor='middle' letter-spacing='2'>HOME VICTORY & ORANGE ARMY CELEBRATION</text><rect x='310' y='300' width='180' height='70' rx='15' fill='%23111118' stroke='%23ff5500' stroke-width='4'/><text x='400' y='348' font-family='Orbitron, sans-serif' font-size='36' font-weight='900' fill='%23ffffff' text-anchor='middle'>VER %231</text><text x='400' y='430' font-family='Orbitron, sans-serif' font-size='16' font-weight='700' fill='%23ffaa00' text-anchor='middle' letter-spacing='4'>KING OF ZANDVOORT 🇳🇱</text></svg>">
+                        <img class="moment-bg" src="pages/images (3).jpg" alt="Dutch GP Zandvoort Victory">
+                        <div class="moment-overlay">
+                            <h3 class="moment-title">Zandvoort GP</h3>
+                            <p class="moment-desc">Pesta kemenangan di kandang sendiri bersama Orange Army.</p>
+                        </div>
+                    </div>
+
+                    <!-- Spanish GP 2016 -->
+                    <div class="moment-card" 
+                         data-title="Spanish GP 2016 - Maiden F1 Victory" 
+                         data-desc="Kemenangan F1 pertama Max di Sirkuit Catalunya, Spanyol saat balapan perdana bersama Red Bull Racing di usia 18 tahun 228 hari." 
+                         data-img="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><defs><linearGradient id='bgSpain' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='%231a0500'/><stop offset='50%' stop-color='%23800000'/><stop offset='100%' stop-color='%2309090c'/></linearGradient><linearGradient id='goldGlow' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='%23ffe066'/><stop offset='100%' stop-color='%23cc9900'/></linearGradient></defs><rect width='800' height='500' fill='url(%23bgSpain)'/><path d='M100 380 C 200 200, 350 420, 500 220 C 600 100, 750 300, 700 420' stroke='rgba(225,6,0,0.4)' stroke-width='16' fill='none' stroke-linecap='round'/><circle cx='400' cy='270' r='110' fill='rgba(255,215,0,0.08)' stroke='url(%23goldGlow)' stroke-width='3'/><text x='400' y='120' font-family='Orbitron, sans-serif' font-size='42' font-weight='900' fill='%23ffffff' text-anchor='middle' letter-spacing='3'>SPANISH GP 2016</text><text x='400' y='160' font-family='Orbitron, sans-serif' font-size='20' font-weight='800' fill='%23ffd700' text-anchor='middle' letter-spacing='2'>MAIDEN F1 VICTORY AT CATALUNYA</text><text x='400' y='275' font-family='Orbitron, sans-serif' font-size='60' font-weight='900' fill='url(%23goldGlow)' text-anchor='middle'>18 y 228 d</text><text x='400' y='320' font-family='Orbitron, sans-serif' font-size='15' font-weight='700' fill='%23ffffff' text-anchor='middle' letter-spacing='2'>YOUNGEST EVER F1 RACE WINNER</text><text x='400' y='440' font-family='Orbitron, sans-serif' font-size='16' font-weight='700' fill='%23e10600' text-anchor='middle' letter-spacing='3'>RED BULL RACING DEBUT WIN</text></svg>">
+                        <img class="moment-bg" src="pages/images (6).jpg" alt="Spanish GP Maiden Win">
+                        <div class="moment-overlay">
+                            <h3 class="moment-title">Spanish GP 2016</h3>
+                            <p class="moment-desc">Kemenangan perdana F1 & rekor pemenang termuda.</p>
+                        </div>
+                    </div>
+
+                    <!-- Monaco GP -->
+                    <div class="moment-card" 
+                         data-title="Monaco GP - Monte Carlo Victory" 
+                         data-desc="Penampilan dominan tanpa cela menguasai sirkuit jalanan Monte Carlo, Monaco dengan presisi tinggi di lintasan paling sempit di F1." 
+                         data-img="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><defs><linearGradient id='bgMonaco' x1='0' y1='0' x2='0' y2='1'><stop offset='0%' stop-color='%23001a33'/><stop offset='60%' stop-color='%23004080'/><stop offset='100%' stop-color='%23050d1a'/></linearGradient></defs><rect width='800' height='500' fill='url(%23bgMonaco)'/><path d='M0 320 Q 200 300 400 320 T 800 320 L 800 500 L 0 500 Z' fill='%23001122'/><path d='M500 310 L 680 310 L 650 280 L 530 280 Z' fill='%23ffffff' opacity='0.3'/><line x1='590' y1='280' x2='590' y2='220' stroke='%23ffffff' stroke-width='2' opacity='0.4'/><path d='M100 450 Q 400 350 700 450' stroke='%23e10600' stroke-width='14' stroke-dasharray='30,30' fill='none'/><path d='M100 450 Q 400 350 700 450' stroke='%23ffffff' stroke-width='14' stroke-dasharray='30,30' stroke-dashoffset='30' fill='none'/><text x='400' y='120' font-family='Orbitron, sans-serif' font-size='42' font-weight='900' fill='%2300f0ff' text-anchor='middle' letter-spacing='3'>MONACO GP</text><text x='400' y='160' font-family='Orbitron, sans-serif' font-size='20' font-weight='800' fill='%23ffffff' text-anchor='middle' letter-spacing='2'>MONTE CARLO STREET CIRCUITS MASTERCLASS</text><rect x='320' y='220' width='160' height='60' rx='12' fill='%23081420' stroke='%2300f0ff' stroke-width='3'/><text x='400' y='262' font-family='Orbitron, sans-serif' font-size='28' font-weight='900' fill='%23ffd700' text-anchor='middle'>P1 MONACO</text><text x='400' y='430' font-family='Orbitron, sans-serif' font-size='16' font-weight='700' fill='%2300f0ff' text-anchor='middle' letter-spacing='3'>PRECISION ON THE STREETS OF MONTE CARLO</text></svg>">
+                        <img class="moment-bg" src="pages/images (1).jpg" alt="Monaco GP Masterclass">
+                        <div class="moment-overlay">
+                            <h3 class="moment-title">Monaco GP</h3>
+                            <p class="moment-desc">Presisi tinggi menaklukkan sirkuit jalanan Monte Carlo.</p>
+                        </div>
+                    </div>
+
+                    <!-- Italian GP Monza Record -->
+                    <div class="moment-card" 
+                         data-title="Monza Italian GP - 10 Consecutive Wins Record" 
+                         data-desc="Pencapaian rekor bersejarah F1 di Monza 'Temple of Speed', mencatatkan 10 kemenangan berturut-turut dalam satu musim." 
+                         data-img="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'><defs><linearGradient id='bgMonza' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='%230f1700'/><stop offset='50%' stop-color='%231f3300'/><stop offset='100%' stop-color='%2309090c'/></linearGradient><linearGradient id='goldText' x1='0' y1='0' x2='1' y2='0'><stop offset='0%' stop-color='%23ffe066'/><stop offset='100%' stop-color='%23ff9900'/></linearGradient></defs><rect width='800' height='500' fill='url(%23bgMonza)'/><rect x='0' y='460' width='266' height='40' fill='%23009246'/><rect x='266' y='460' width='268' height='40' fill='%23ffffff'/><rect x='534' y='460' width='266' height='40' fill='%23ce2b37'/><circle cx='400' cy='250' r='100' fill='rgba(255,215,0,0.1)' stroke='url(%23goldText)' stroke-width='4'/><text x='400' y='110' font-family='Orbitron, sans-serif' font-size='42' font-weight='900' fill='%23ffffff' text-anchor='middle' letter-spacing='3'>MONZA - ITALIAN GP</text><text x='400' y='150' font-family='Orbitron, sans-serif' font-size='20' font-weight='800' fill='%23ffd700' text-anchor='middle' letter-spacing='2'>10 CONSECUTIVE F1 WINS RECORD</text><text x='400' y='275' font-family='Orbitron, sans-serif' font-size='80' font-weight='900' fill='url(%23goldText)' text-anchor='middle'>10x</text><text x='400' y='315' font-family='Orbitron, sans-serif' font-size='16' font-weight='800' fill='%23ffffff' text-anchor='middle' letter-spacing='3'>IN A ROW IN HISTORY</text><text x='400' y='420' font-family='Orbitron, sans-serif' font-size='16' font-weight='700' fill='%23ffd700' text-anchor='middle' letter-spacing='3'>TEMPLE OF SPEED HISTORIC RECORD</text></svg>">
+                        <img class="moment-bg" src="pages/images (2).jpg" alt="Monza 10th Streak Wins Record">
+                        <div class="moment-overlay">
+                            <h3 class="moment-title">10 Streak Wins (Monza)</h3>
+                            <p class="moment-desc">Rekor bersejarah 10 kemenangan berturut-turut di Italian GP.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="game" class="section-padding" style="background: rgba(0,0,0,0.25);">
+            <div class="container">
+                <div class="section-title">
+                    <h2>F1 LIGHTS OUT REACTION TEST</h2>
+                    <p class="section-subtitle">Test your reflexes like a real Formula 1 driver!</p>
+                </div>
+                <div class="game-section">
+                    <div class="game-container">
+                        <div class="game-status-box">
+                            <div class="game-status-text" id="game-status">Klik "START TEST" untuk memulai!</div>
+                            <div class="game-reaction-time" id="game-reaction-time">0.000 s</div>
+                        </div>
+
+                        <div class="f1-gantry">
+                            <div class="gantry-light" id="g-light-1"></div>
+                            <div class="gantry-light" id="g-light-2"></div>
+                            <div class="gantry-light" id="g-light-3"></div>
+                            <div class="gantry-light" id="g-light-4"></div>
+                            <div class="gantry-light" id="g-light-5"></div>
+                        </div>
+
+                        <button class="btn btn-primary btn-launch" id="btn-game-action">
+                            START TEST
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="quiz" class="section-padding">
+            <div class="container">
+                <div class="section-title">
+                    <h2>F1 KNOWLEDGE QUIZ</h2>
+                    <p class="section-subtitle">Berapa seberapa tahu kamu tentang Max Verstappen?</p>
+                </div>
+                <div class="quiz-card">
+                    <div id="quiz-container">
+                        <div style="display:flex; justify-content:space-between; margin-bottom:15px; color:var(--f1-text-muted); font-size:0.9rem; font-family:var(--font-racing);">
+                            <span>QUESTION <span id="quiz-current">1</span> / 5</span>
+                            <span>SCORE: <span id="quiz-score" style="color:var(--f1-gold)">0</span></span>
+                        </div>
+                        <div class="quiz-question" id="quiz-question-text">
+                            Loading Question...
+                        </div>
+                        <div class="quiz-options" id="quiz-options">
+                            <!-- Injected dynamically -->
+                        </div>
+                        <div class="quiz-footer">
+                            <div id="quiz-feedback" style="font-weight:700"></div>
+                            <button class="btn btn-primary" id="btn-next-quiz" style="display:none;">NEXT QUESTION <i class="fa-solid fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <!-- Quiz Summary -->
+                    <div id="quiz-result" style="display:none; text-align:center;">
+                        <h3 style="font-family:var(--font-racing); font-size:2rem; color:var(--f1-gold); margin-bottom:15px;">QUIZ COMPLETED!</h3>
+                        <p style="font-size:1.2rem; margin-bottom:25px;">Skor Akhir Kamu: <span id="quiz-final-score" style="color:var(--f1-red); font-weight:800">0</span> / 5</p>
+                        <button class="btn btn-primary" id="btn-restart-quiz"><i class="fa-solid fa-rotate-right"></i> COBA LAGI</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-padding" style="background: rgba(0,0,0,0.25);">
+            <div class="container">
+                <div class="section-title">
+                    <h2>CONTACT & FEEDBACK</h2>
+                    <p class="section-subtitle">Kirimkan pesan atau kritik untuk portofolio ini</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <h4 style="color:var(--f1-text); font-weight:700; font-family:var(--font-racing)">Email</h4>
+                                <p style="color:var(--f1-text-muted)">f1idolportfolio@example.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <h4 style="color:var(--f1-text); font-weight:700; font-family:var(--font-racing)">Project Scope</h4>
+                                <p style="color:var(--f1-text-muted)">School / Student Web Portfolio Project</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-alert" id="form-alert"></div>
+                        <div class="form-group">
+                            <label for="contact-name">Nama Anda</label>
+                            <input type="text" id="contact-name" class="form-control" placeholder="Masukkan nama..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">Email</label>
+                            <input type="email" id="contact-email" class="form-control" placeholder="Masukkan email..." required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-msg">Pesan</label>
+                            <textarea id="contact-msg" class="form-control" placeholder="Tulis pesan..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fa-solid fa-paper-plane"></i> KIRIM PESAN
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-socials">
+                <a href="#" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-btn" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="social-btn" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <p style="color:var(--f1-text-muted); font-size:0.9rem;">
+                Design & Built for School / Student Project — Formula 1 Fan Portfolio
+            </p>
+            <p style="color:var(--f1-red); font-family:var(--font-racing); font-weight:700; margin-top:6px; font-size:0.95rem;">
+                MY F1 RACING IDOL PORTFOLIO © 2026
+            </p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" id="lightbox-close-btn">&times;</button>
+            <img id="lightbox-img" class="lightbox-img" src="" alt="F1 Moment Photo">
+            <h3 id="lightbox-title" style="color:var(--f1-red); font-family:var(--font-racing); font-size:1.4rem; margin-bottom:10px;"></h3>
+            <p id="lightbox-desc" style="color:var(--f1-text-muted); font-size:0.95rem;"></p>
+        </div>
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="script.js" defer></script>
+</body>
+</html>
